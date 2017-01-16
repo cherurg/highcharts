@@ -1366,7 +1366,7 @@ Navigator.prototype = {
 
 		// Destroy properties
 		each(['series', 'xAxis', 'yAxis', 'shades', 'outline', 'scrollbarTrack',
-				'scrollbarRifles', 'scrollbarGroup', 'scrollbar', 'navigatorGroup', 'rendered'], function (prop) {
+			'scrollbarRifles', 'scrollbarGroup', 'scrollbar', 'navigatorGroup', 'rendered'], function (prop) {
 			if (this[prop] && this[prop].destroy) {
 				this[prop].destroy();
 			}
