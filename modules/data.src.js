@@ -1,5 +1,5 @@
 /**
- * @license Highcharts JS v5.0.6-modified (2017-01-16)
+ * @license Highcharts JS v5.0.6-modified (2017-01-26)
  * Data module
  *
  * (c) 2012-2016 Torstein Honsi
