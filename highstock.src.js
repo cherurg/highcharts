@@ -28129,8 +28129,7 @@
                     // If a data grouping is applied to the current button, release it when extremes change
                     if (!chart.xAxis) {
                         if (ENV === 'development') { // eslint-disable-line
-                            console.warn('chart.xAxis is not defined. This code was added by Alexey Karpov in order to' + // eslint-disable-line
-                                'overcome a bug in highcharts. Probably, they will fix it in future releases.');
+                            console.warn('chart.xAxis is not defined. This code was added by Alexey Karpov in order to overcome a bug in highcharts. Probably, they will fix it in future releases.');
                         }
                         return;
                     }
